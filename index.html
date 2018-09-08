@@ -5,47 +5,87 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Atividade</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <h1>Registro de Animais</h1>
+        <img src="img/img.jpg" class="imger" title="Imagem representando o resgate" alt="Logo ilustrativo do resgate">
+        <h1 class="cabecalho1">Resgate de Animais</h1>
+        <h2 class="cabecalho2"> Junte-se a está causa</h2>
     </header>
+    <!-- Menu -->
     <div class="naveg">
         <nav id="menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Registro</a></li>
-                <li><a href="#">Missão</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#reg">Registro</a></li>
+                <li><a href="#quem">Quem somos</a></li>
+                <li><a href="#RGA">RGA</a></li>
+                <li><a href="https://www.fagammon.edu.br/"target="_blank">Parceiro FAGAMMON</a></li>
             </ul>
         </nav>
 
     </div>
     <main>
         <section>
-
-            <article class="artig1">
-                <p>
-                    O registro oferece segurança jurídica tanto para os animais quanto para os donos. "Em caso de roubos ou desaparecimento do animal, ou até em caso de divórcio dos cuidadores do pet, a certidão vai ser um meio legal para comprovar os direitos dos donos", explica Thiago Fernandes. Ele ressalta ainda que o documento deve facilitar o transporte de bichos em viagens e ainda poderá ser usado no caso de morte do tutor. Neste caso, a guarda do animal passa para os herdeiros do dono.
+            <!-- Artigo 2 - Registro-->
+            <article class="artig1" id="reg">
+                <h2 class="registro"> Registro</h2>
+                <p class="p1">
+                    <b>O registro oferece segurança jurídica tanto para os animais quanto para os donos.</b> <i>"Em caso de roubos ou desaparecimento do animal, ou até em caso de divórcio dos cuidadores do pet, a certidão vai ser um meio legal para comprovar os direitos dos donos"</i>, explica <b>Thiago Fernandes</b>. Ele ressalta ainda que o documento deve facilitar o transporte de bichos em viagens e ainda poderá ser usado no caso de morte do tutor. Neste caso, a guarda do animal passa para os herdeiros do dono.<br>
+                    <br>
+                    Para se registrar:<br>
+                    
+                    Clique <a href="formulario/formulario.html">AQUI</a>.
+                    
                 </p>
             </article>
-
+            <!-- Artigo 2 - Duvida-->
             <article class="artig2">
-                <p>
-                    <em> O Brackets é um editor diferente.</em>
-                    O Brackets tem algumas características únicas, como a Edição Rápida (Quick Edit), Visualização ao vivo (Live Preview) e muitas outras que você não encontrará em outros editores. E o Brackets é escrito em JavaScript, HTML e CSS. Isso significa que a maioria de vocês que utilizam o Brackets possuem as habilidades necessárias para modificar e estender o editor. Na verdade, usamos o Brackets todos os dias para desenvolver o Brackets. Para saber mais sobre como utilizar os principais recursos, continue lendo.
+                <h2> O que não fazer </h2>
+                <p class="p2">
+                    Não faça o resgate pensando em passar a responsabilidade sobre o animal para outra pessoa ou instituição;<br>
+                    Não faça o resgate a não ser que você se comprometa pessoalmente com aquela vida que precisa de socorro.<br> Isto é, se ninguém mais te der apoio ou suporte, você terá que dar conta do recado..
                 </p>
             </article>
-
         </section>
 
-        <footer class="footer">
-            <p>
-                Coptyright C 2018 - Rafael Henrique
+        <div class="artig3">
+            <h2 id="quem"> Quem somos </h2>
+            <p class="p3"> <i>O Fórum Nacional de Proteção e Defesa Animal (FNPDA)</i> é a maior rede de proteção animal do Brasil, com mais de 130 entidades afiliadas em todas as regiões do país.
+                Há mais de quinze anos, atuamos na disseminação do respeito, proteção e defesa dos animais. Lutamos para construir uma nova sociedade onde a compaixão pela vida animal seja um valor nacional, compartilhado por todos os brasileiros.
+                Ao mesmo tempo, nossas afiliadas proveem cuidado direto para milhares de animais que são vítimas de abuso, abandono ou tráfico.<br>
+                <b>Universidade Federal de Lavras</b>, contribui com nosso desenvolvimento
+                <a href="https://ufla.br/"target="_blank">clique aqui</a>, para mais informações.
             </p>
+        </div>
+        <div class="artig3">
+            <h2 id="RGA"> O que é o RGA </h2>
+            <p class="p4">
+                O <s>Registro Geral</s> Animal é um documento que funciona como uma carteira de identidade para bichinhos de estimação, principalmente cães e gatos. Ele é uma ferramenta utilizada para quando o animal se perder e for encontrado, ser encaminhado para seu dono.
+            </p>
+        </div>
+        <div class="artig4">
+           <h2> Ajude a realizar os sonhos desses:</h2>
+            <div class="box">
+                <a href="myfile.htm"> <img src="img/cao1.jpg" alt="cachorro doacao 1 "width="100%" margin-left="20px"></a>
+                <figcaption>Rex - 5 anos</figcaption>
+             </div> 
+               <div class="box">
+                  <img src="img/cao2.jpg" alt="cachorro doacao 2"width="100%" margin-left="40px">
+                  <figcaption>Tody - 2 anos</figcaption> 
+               </div> 
+               <div class="box">
+                <img src="img/cao3.jpg" alt="cachorro doacao 3"width="100%">
+                <figcaption>Thor - 4 anos</figcaption> 
+                </div>
+            </figure>
+        </div>    
+        <!-- Rodape -->
+        <footer class="footer">
+            Coptyright C 2018 - Rafael Henrique
         </footer>
 
     </main>

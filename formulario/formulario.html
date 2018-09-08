@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Atividade</title>
+    <link href="css/estilo.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <h2>Formulário</h2>
+        <form action="." method="post">
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" name="nome" id="nome" size="30" maxlength="100" required autofocus placeholder="Insira seu nome">
+            <hr>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" size="30" maxlength="60" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            <hr>
+            <label for="nascimento" id="nascimento">Data de nascimento:</label>
+            <input type="date" name="nascimento" id="nascimento" size="30" maxlength="14" required autofocus placeholder="Insira seu CPF">
+            <hr>
+            <label for="telefone">Login: *</label>
+            <input type="text" name="login" id="login" size="30" maxlength="30">
+            <hr>
+            <label for="senha">Senha: *</label>
+            <input type="password" name="senha" id="senha" size="30" maxlength="30">
+            <hr>
+            <label for="senha">Estado:</label><br>
+            <select name="estado">
+                <option value="estado">Selecione o Estado</option>
+                <option value="ac">Acre</option>
+                <option value="al">Alagoas</option>
+                <option value="am">Amazonas</option>
+                <option value="ap">Amapá</option>
+                <option value="ba">Bahia</option>
+                <option value="ce">Ceará</option>
+                <option value="df">Distrito Federal</option>
+                <option value="es">Espírito Santo</option>
+                <option value="go">Goiás</option>
+                <option value="ma">Maranhão</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ms">Mato Grosso do Sul</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pa">Pará</option>
+                <option value="pb">Paraíba</option>
+                <option value="pr">Paraná</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="ro">Rondônia</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="rr">Roraima</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="se">Sergipe</option>
+                <option value="sp">São Paulo</option>
+                <option value="to">Tocantins</option>
+            </select><br>
+            <hr>
+            <br><label for="numero_animal">Numeros de animais:</label>
+            <input type="number" accesskey="1" name="filhos" id="filhos" min="0" max="5" value="1">
+            <hr>
+            <label for="nome_animal">Nome do animal(is)</label>
+            <input type="text" name="animal" id="nome_animal" maxlength="30" placeholder="Nome1,nome2,nome3 ...">
+            <hr>
+
+            <input type="submit" value="Finalizar" id="finalizar" name="finalizar">
+            <input type="submit" value="Sair" id="sair" name="sair">
+
+        </form>
+</body>
+
+</html>

@@ -13,8 +13,8 @@ body {
     text-align: justify;
     line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+    max-width: 60%;
+    padding: 2em 2em 1em;
 }
 
 .imger {
@@ -28,7 +28,7 @@ ul {
     padding: 0;
     width: 15%;
     background-color: #f1f1f1;
-    height: 1150px;
+    height: 70em; 
     overflow: auto;
 }
 
@@ -98,10 +98,12 @@ img{
 figcaption{
     background-color: dimgrey;
     color: white;
+    text-align: center;
 }
 div.box{
     display: inline-block;
     width: 30%;
+    margin-left: 10px;
 }
 
 footer {

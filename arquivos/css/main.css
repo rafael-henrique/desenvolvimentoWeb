@@ -35,7 +35,7 @@ ul {
     padding: 0;
     width: 15%;
     background-color:#EDEDED ;
-    height: 69em;
+    height: 77em;
     overflow: auto;
 }
 
@@ -108,7 +108,12 @@ h2 {
 h3{
     font-family:serif
 }
-
+.download{
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+}
 .artig1,
 .artig2,
 .artig3,

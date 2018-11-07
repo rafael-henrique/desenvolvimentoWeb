@@ -234,42 +234,40 @@ legend {
 }
 
 input {
-    display: inline-flex;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 8px;
-    border-radius: 3px;
-}
+    border-radius: 5px;
+} 
 
 input:focus {
     border: 1px solid dodgerblue;
     outline: none;
 }
 
-#finalizar {
+.finalizar {
     float: right;
-    text-align: center;
-    position: static;
-
 }
-
-.sair {
-    text-align: center;
-}
-
-#sair:hover {
-    background-color: red;
+.sair:hover {
+    background-color: #cc0000;
     color: white;
     font-weight: bolder;
 }
 
-#finalizar:hover {
-    background-color: green;
+.finalizar:hover {
+    background-color: darkgreen;
     color: white;
     font-weight: bolder;
 }
 
 input[type=submit] {
+    width: 100px;
+    color: black;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+input[type=reset] {
     width: 100px;
     color: black;
     background-color: lightgrey;

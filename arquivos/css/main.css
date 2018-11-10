@@ -208,7 +208,25 @@ span {
 
 @charset "ISO-8859-2";
 /* CSS Document formulario */
-
+.simple-form {
+  overflow-y: scroll;
+  padding-bottom: 1.25rem;
+}
+.simple-form input {
+  border: 3px solid #eee;
+  border-left: 3px solid;
+  border-radius: 5px;
+  transition: border-color .1s ease-out;
+}
+.simple-form input:optional {
+  border-left-color: #999;
+}
+.simple-form input:required {
+  border-left-color: green;
+}
+.simple-form input:invalid {
+  border-left-color: red;
+}
 
 .texto2 {
     font-family: Georgia, "Times New Roman", Times, serif;
